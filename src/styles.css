@@ -3,8 +3,8 @@
 html, body { 
 
     /* background: rgb(255,255,255); */
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(62,247,174,1) 53%);
-    /* background-image: url("/src/assets/img/mountains-5120x2880-silent-silhouette-minimal-hd-5k-10134.jpg"); */
+    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(62,247,174,1) 53%); */
+    background-image: url(../src/assets/img/mountains-5120x2880-silent-silhouette-minimal-hd-5k-10134.jpg);
     height: 100%;
     background-repeat: no-repeat, repeat;
     background-position: center;
