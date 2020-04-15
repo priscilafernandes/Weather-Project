@@ -3,17 +3,19 @@
     font-size: 20px;
     color:rgb(92, 91, 91);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    opacity: 60%;
+    opacity: 90%;
  }
 .container{
     margin: 2em auto;
     width: 20%;
-    height: 70%;
+    height: 20%;
     display: flex;
     justify-content: center;
     padding: 15em;
     border: 1px solid grey;
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px rgb(39, 39, 39);
+    background: rgb(255, 255, 255);
+    opacity: 90%;
 }

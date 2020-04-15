@@ -18,16 +18,16 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     float: center;
-    width: 70%;
-    background: rgb(255, 255, 255);
-    box-shadow: 5px 5px 10px grey;
+    width: 71%;
+    background: white;
+    box-shadow: 7px 5px 10px rgb(39, 39, 39);
   }
 
 .form-search button {
     float: center;
     width: 15%;
     padding: 10px;
-    background: #2196F3;
+    background: #25b37a;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
@@ -35,11 +35,11 @@
     border-bottom-right-radius: 15px;
     border-left: none;
     cursor: pointer;
-    box-shadow: 3px 5px 10px grey;
+    box-shadow: 5px 5px 10px rgb(39, 39, 39);
   }
   
 .form-search button:hover {
-    background: #0b7dda;
+    background: #0c8152;
   }
   
 .form-search::after {
@@ -52,10 +52,10 @@
   ::placeholder {
       
     font-family: sans-serif;
-    color: rgb(92, 91, 91);
+    color: black;
     font-size: 18px;
     text-align: center;
-    opacity: 60%; /* Mexe na opacidade do placeholder*/
+    opacity: 70%; /* Mexe na opacidade do placeholder*/
 }
 
 
@@ -68,4 +68,6 @@
 
     input:focus {
         outline:none;
+        background-color: white;
+        opacity: 100%;
         }
