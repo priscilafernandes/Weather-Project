@@ -17,17 +17,15 @@
     border: 1px solid grey;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    float: center;
     width: 71%;
     background: white;
     box-shadow: 7px 5px 10px rgb(39, 39, 39);
   }
 
 .form-search button {
-    float: center;
     width: 15%;
     padding: 10px;
-    background: #25b37a;
+    background: #20364d;
     color: white;
     font-size: 17px;
     border: 1px solid grey;
@@ -39,7 +37,8 @@
   }
   
 .form-search button:hover {
-    background: #0c8152;
+  transition: all 1s ease;
+    background: #60b5d4;
   }
   
 .form-search::after {
