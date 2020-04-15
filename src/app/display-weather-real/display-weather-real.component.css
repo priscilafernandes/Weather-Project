@@ -29,4 +29,8 @@
             .other-content-temperature {
                 
             }
-        
+    .graphic {
+        background-color: tomato;
+         border: 10px solid yellow ;
+         height: 5px;
+    }

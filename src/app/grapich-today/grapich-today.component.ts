@@ -10,19 +10,19 @@ import { Color,Label } from "ng2-charts";
 export class GrapichTodayComponent implements OnInit {
 
   lineChartData: ChartDataSets[] = [
-    { data: [85,72,78,100, 90], label: 'Temperatura Hoje'}
+    { data: [85, 72, 78, 75, 77, 75], label: 'Crude oil prices' },
   ];
 
   lineChartLabels: Label[] = ['January', 'February', 'March', 'April', 'May', 'June'];
 
   lineChartOptions = {
-    responsive:true,
+    responsive: true,
   };
 
   lineChartColors: Color[] = [
     {
       borderColor: 'black',
-      backgroundColor: 'rgba(255,255,0,0.28)',
+      backgroundColor: '#20364d',
     },
   ];
 
