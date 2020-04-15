@@ -17,14 +17,15 @@
     border: 1px solid grey;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    float: left;
-    width: 80%;
+    float: center;
+    width: 70%;
     background: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px grey;
   }
 
 .form-search button {
-    float: left;
-    width: 20%;
+    float: center;
+    width: 15%;
     padding: 10px;
     background: #2196F3;
     color: white;
@@ -34,6 +35,7 @@
     border-bottom-right-radius: 15px;
     border-left: none;
     cursor: pointer;
+    box-shadow: 3px 5px 10px grey;
   }
   
 .form-search button:hover {
@@ -48,10 +50,12 @@
   }
 
   ::placeholder {
+      
     font-family: sans-serif;
     color: rgb(92, 91, 91);
     font-size: 18px;
     text-align: center;
+    opacity: 60%; /* Mexe na opacidade do placeholder*/
 }
 
 

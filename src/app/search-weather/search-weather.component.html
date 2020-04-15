@@ -2,7 +2,7 @@
 
 <div class="search-content">
 <form class="form-search" >
-    <input class="search-bar" type="text" name="search-zip" placeholder="Digite sua cidade" (change) = "getInputZip($event)">
+    <input class="search-bar" type="text" name="search-zip" placeholder="Digite sua cidade" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Digite sua cidade'" (change) = "getInputZip($event)">
     <button type="submit" name="submit" value=""><i class="fa fa-search"></i></button>
 </form>
 </div>
