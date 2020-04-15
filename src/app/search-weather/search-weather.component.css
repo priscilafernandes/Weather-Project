@@ -1,43 +1,67 @@
-.form-search {
-    width: 80%;
+.search-content{
+    width: 60%;
     margin: 0 auto;
     text-align: center;
     position: relative;
     font-family: sans-serif;
+    margin-top: 1em;
 }
-    .form-search input[type="text"] {
-        display: inline-block;
-        box-sizing: border-box;
-        border: none;
-        width: 600px;
-        height: 35px;
-        padding: 20px ;
-        border-radius: 55px;
-        border: 2px solid #c4c4c4 ;
-        box-shadow: 0 0 10px rgb(104, 104, 104);
-        font-family: sans-serif;
-    }
-    
-    .form-search input[type="submit"] {
-        position: absolute;
-        top: 2px;
-        left: 781px;
-        width: 60px;
-        height: 40px;
-        border-radius: 55px;
-        background-image: url(../../assets/icon/search.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        border: none;
-    }
 
-        ::placeholder {
-            color: #000;
-            font-size: 15px;
-            text-align: center;
+* {
+    box-sizing: border-box;
+  }
+
+.form-search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+    width: 80%;
+    background: rgb(255, 255, 255);
+  }
+
+.form-search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+.form-search button:hover {
+    background: #0b7dda;
+  }
+  
+.form-search::after {
+    font-family: sans-serif;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  ::placeholder {
+    font-family: sans-serif;
+    color: rgb(92, 91, 91);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
+/* Tira a borda de Foco quando clica no Input ou Button*/
+
+    button:focus{
+        outline: none;
         }
 
-        input:focus {
-            outline:none;
+    input:focus {
+        outline:none;
         }
