@@ -2,7 +2,7 @@
      box-sizing: border-box;
      margin: 10em auto;
      width: 60%;
-     height: 50vh;
+     height: 60vh;
      padding: 50px;
      border: 1px solid grey;
      border-radius: 20px;
@@ -26,11 +26,11 @@
                     margin-left: 20px;
                 }
         
-            .other-content-temperature {
+            /* .other-content-temperature {
                 
             }
     .graphic {
-        background-color: tomato;
+         background-color: tomato;
          border: 10px solid yellow ;
-         height: 5px;
-    }
+         height: 5px; 
+    } */

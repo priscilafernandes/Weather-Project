@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartDataSets, ChartOptions } from 'chart.js';
-import { Color,Label } from "ng2-charts";
+import { Color, Label } from "ng2-charts";
 
 @Component({
   selector: 'grapich-today',
@@ -10,10 +10,10 @@ import { Color,Label } from "ng2-charts";
 export class GrapichTodayComponent implements OnInit {
 
   lineChartData: ChartDataSets[] = [
-    { data: [85, 72, 78, 75, 77, 75], label: 'Crude oil prices' },
+    { data: [25, 22, 19, 20, 18, 27, 21], label: 'Temperatura da Semana' },
   ];
 
-  lineChartLabels: Label[] = ['January', 'February', 'March', 'April', 'May', 'June'];
+  lineChartLabels: Label[] = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado', 'Domingo'];
 
   lineChartOptions = {
     responsive: true,
@@ -22,13 +22,14 @@ export class GrapichTodayComponent implements OnInit {
   lineChartColors: Color[] = [
     {
       borderColor: 'black',
-      backgroundColor: '#20364d',
+      backgroundColor: '#1483b7',
     },
   ];
 
   lineChartLegend = true;
+  lineChartShowLines = false;
   lineChartPlugins = [];
-  lineChartType = 'line';
+  lineChartType = 'line'
 
 
 
