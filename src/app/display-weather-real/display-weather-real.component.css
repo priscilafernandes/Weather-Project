@@ -1,36 +1,101 @@
- .container {
-     box-sizing: border-box;
-     margin: 10em auto;
-     width: 60%;
-     height: 50vh;
-     padding: 50px;
-     border: 1px solid grey;
-     border-radius: 20px;
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     box-shadow: 5px 5px 10px rgb(39, 39, 39);
-     background: rgb(255, 255, 255);
-     opacity: 90%;
+/* Menu  */
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.menu-prev-weather {
+    width: 1000px;
+    margin: 25px auto;
+    text-align: center;
+}
+    .menu-prev-itens{
+        display: flex;   
+        justify-content: center;
     }
-    .status-weather{
-        display: flex;
-        width: 100%;
-    }
-            .content-temperature {
-                box-sizing: border-box;
-                display: flex;
-                margin-right: 100px;
+        .menu-prev-itens li{
+            padding-left: 35px ;
+            font-size: 15px;
+            font-weight: 800;
+        }
+            .menu-prev-itens li:hover{
+                cursor: pointer;
             }
+ 
+ .content-weather {
+     box-sizing: border-box;
+     width: 60%;
+     height: 70vh;
+     padding: 20px 50px;
+     margin: 5em auto;
+     border-radius: 20px;
+     background: rgb(255, 255, 255);
+     text-align: center;
+    }
+
+        .location-city {
+            text-align: center;
+        }
+
+        .hr-style {
+            display: inline-block;
+            width: 20%;
+            height: 5px;
+            background-color: #c4c4c4;
+            border: none;
+            border-radius: 5px;
+        }
+        .content-temperature{
+            display: flex;
+            align-items: center;
+            justify-content: space-around ;
+            margin: 20px 0;
+        }
+        .content-temperature span {
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+                font-weight: bold;
+            }
+                .content-temperature span .img-weather{
+                    display: inline-block;
+                    width: 30%;
+                    height: 50px;
+                    margin-right: 10px;
+                }
 
                 .content-temperature h2 {
-                    margin:0;
-                    margin-left: 20px;
+                    font-size: 30px;
+                    font-weight: lighter;
                 }
         
-            .other-content-temperature {
-                
+        .more-info {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 50px 0;
+            justify-content: center;
+           
+        }
+            .more-info div {
+                width: 100%;
+                margin: 0 28%;
+                text-align: left;
             }
-    .graphic {
-        background-color: tomato;
-         border: 10px solid yellow ;
-         height: 5px;
-    }
+
+            .more-info span {
+                font-size: 18px;
+                font-weight: 900;
+            }
+
+            .more-info p {
+                font-size: 15px;
+                font-weight: lighter;
+                color: #c4c4c4;
+            }
+
+            .more-info img {
+                width: 20%;
+                height: 50px;
+                margin-right: 10px ;
+                float: left;
+            }
+
+

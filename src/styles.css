@@ -13,7 +13,12 @@ html, body {
 }
 body { 
     margin: 0;  
-    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-family: 'Nunito', sans-serif;
     
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

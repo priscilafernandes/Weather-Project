@@ -1,72 +1,29 @@
-.search-content{
-    width: 60%;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    font-family: sans-serif;
-    margin-top: 1em;
-}
-
-* {
+.form-search {
+  width: 1000px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;;
+} 
+  .search-bar{
     box-sizing: border-box;
-  }
-
-.form-search input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    width: 71%;
-    background: white;
-    box-shadow: 7px 5px 10px rgb(39, 39, 39);
-  }
-
-.form-search button {
-    width: 15%;
-    padding: 10px;
-    background: #20364d;
-    color: white;
-    font-size: 17px;
-    border: 1px solid grey;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-left: none;
-    cursor: pointer;
-    box-shadow: 5px 5px 10px rgb(39, 39, 39);
-  }
-  
-.form-search button:hover {
-  transition: all 1s ease;
-    background: #60b5d4;
-  }
-  
-.form-search::after {
-    font-family: sans-serif;
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  ::placeholder {
-      
-    font-family: sans-serif;
-    color: black;
+    width: 50%;
+    height: 50px;
+    padding: 0px 65px;
     font-size: 18px;
-    text-align: center;
-    opacity: 70%; /* Mexe na opacidade do placeholder*/
-}
-
-
-
-/* Tira a borda de Foco quando clica no Input ou Button*/
-
-    button:focus{
-        outline: none;
-        }
-
-    input:focus {
-        outline:none;
-        background-color: white;
-        opacity: 100%;
-        }
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.75);
+    background-image: url(../../assets/icon/maps.svg);
+    background-repeat: no-repeat;
+    background-size: 6%;
+    background-position: 5%;
+    
+  }
+    ::placeholder {
+      color: #000;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: 'Nunito', sans-serif;
+    }
