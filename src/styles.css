@@ -5,8 +5,10 @@ html, body {
     /* background: rgb(255,255,255); */
     /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(62,247,174,1) 53%); */
     background-image: url(../src/assets/img/bk.jpg);
-    height: 100%;
-    background-repeat: no-repeat, repeat;
+    /* height: 150%; */
+    height: 120%;
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
@@ -16,4 +18,5 @@ body {
     font-family: Roboto, "Helvetica Neue", sans-serif;
     
 }
+
 
