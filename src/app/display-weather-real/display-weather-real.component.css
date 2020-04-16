@@ -22,10 +22,16 @@
  
  .content-weather {
      box-sizing: border-box;
+
      width: 60%;
      height: 70vh;
      padding: 20px 50px;
      margin: 5em auto;
+     margin: 2% auto;
+     width: 60%;
+     height: 70%;
+     padding: 50px;
+     border: 1px solid grey;
      border-radius: 20px;
      background: rgb(255, 255, 255);
      text-align: center;
@@ -98,4 +104,8 @@
                 float: left;
             }
 
-
+    /* .graphic {
+        background-color: tomato;
+         border: 10px solid yellow ;
+         height: 5px;
+    } */
