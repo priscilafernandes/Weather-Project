@@ -2,7 +2,11 @@
      box-sizing: border-box;
      margin: 2% auto;
      width: 60%;
+<<<<<<< HEAD
      height: 70%;
+=======
+     height: 60vh;
+>>>>>>> b2f5b595637f12abf90b70637edda6639520f34b
      padding: 50px;
      border: 1px solid grey;
      border-radius: 20px;
@@ -26,8 +30,18 @@
                     margin-left: 20px;
                 }
         
+<<<<<<< HEAD
     /* .graphic {
         background-color: tomato;
          border: 10px solid yellow ;
          height: 5px;
+=======
+            /* .other-content-temperature {
+                
+            }
+    .graphic {
+         background-color: tomato;
+         border: 10px solid yellow ;
+         height: 5px; 
+>>>>>>> b2f5b595637f12abf90b70637edda6639520f34b
     } */
