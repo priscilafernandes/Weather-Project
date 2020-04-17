@@ -16,7 +16,9 @@ export class SearchWeatherComponent implements OnInit {
 
   constructor(private service: ServiceApiService) { }
 
-  ngOnInit() { }
+  ngOnInit() {
+
+  }
 
   getInputZip(event) {
     this.inputSearch = String(event.target.value);

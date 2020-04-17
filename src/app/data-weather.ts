@@ -12,8 +12,8 @@ export class DataWeather {
     temperature: number,
     wind: number,
     preciptation: number,
-    umidity: number) {
-
+    umidity: number
+  ) {
     this.country = country;
     this.city = city;
     this.temperature = temperature;

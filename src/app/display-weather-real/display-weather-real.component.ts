@@ -8,19 +8,12 @@ import { DataWeather } from "../data-weather";
   styleUrls: ['./display-weather-real.component.css']
 })
 export class DisplayWeatherRealComponent implements OnInit {
-  info: any
-
-
 
   constructor(private response: ServiceApiService) { }
 
-  @Input ('responses') responses;
+  @Input () responses;
 
   ngOnInit(): void {
-
-    console.log("!!!!!!!!")
-    // console.log("DataWeather ******", DataWeather)
-
 
   }
 

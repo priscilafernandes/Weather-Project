@@ -1,9 +1,9 @@
-<IMG SRC="assets/img/magicweatherlogo.png" class= "img-logo">
+<IMG SRC="assets/img/magicweatherlogo.png" class="img-logo">
 
-    <div class="searchbar">
-        <search-weather></search-weather>
-    </div>
+<div class="searchbar">
+  <search-weather #search></search-weather>
+</div>
 
-    <div class="display">
-        <display-weather-real></display-weather-real>
-    </div>
+<div class="display">
+  <display-weather-real [responses]="search.response"></display-weather-real>
+</div>
