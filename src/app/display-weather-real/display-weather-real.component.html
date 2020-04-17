@@ -6,7 +6,6 @@
   </ul>
 </nav>
 
-
 <section class="content-weather">
 
   <div class="location-city">
@@ -16,27 +15,27 @@
   <hr class="hr-style">
 
   <div class="content-temperature">
-    <span><img src="../../assets/icon/sun.svg" class="img-weather" /> Ensolarado</span>
+    <span><img src="{{responses.icon}}"/> - {{ responses.description }}</span>
     <h2>{{ responses.temperature }} ºC</h2>
   </div>
 
   <div class="more-info">
     <div>
       <img src="../../assets/icon/rain.svg" />
+      <p>Chuva:</p>
       <span>{{ responses.preciptation }} %</span>
-      <p> Chuva: </p>
     </div>
 
     <div>
       <img src="../../assets/icon/moisture.svg" />
-      <span>{{ responses.umidity }} %</span>
       <p>Umidade:</p>
+      <span>{{ responses.umidity }} %</span>
     </div>
 
     <div>
       <img src="../../assets/icon/wind.svg" />
+      <p>Vento:</p>
       <span>{{ responses.wind }} Km/h</span>
-      <p> Vento: </p>
     </div>
   </div>
 

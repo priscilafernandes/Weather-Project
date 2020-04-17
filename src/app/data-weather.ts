@@ -3,16 +3,22 @@ export class DataWeather {
   public city: string;
   public temperature: string;
   public wind: number;
-  public preciptation: number;
+  public preciptation: string;
   public umidity: number;
+  public description: string;
+  public icon: any;  
+  public code: any;
 
   constructor(
     country: string,
     city: string,
     temperature: string,
     wind: number,
-    preciptation: number,
-    umidity: number
+    preciptation: string,
+    umidity: number,
+    description: string,
+    icon:any,
+    code:any,
   ) {
     this.country = country;
     this.city = city;
@@ -20,5 +26,8 @@ export class DataWeather {
     this.wind = wind;
     this.preciptation = preciptation;
     this.umidity = umidity;
-  }
+    this.description = description;
+    this.icon = icon;
+    this.code = code
+    }
 }

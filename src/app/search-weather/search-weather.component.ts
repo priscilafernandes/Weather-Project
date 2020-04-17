@@ -33,7 +33,10 @@ export class SearchWeatherComponent implements OnInit {
         apiResult.temp,
         apiResult.wind_spd,
         apiResult.precip,
-        apiResult.rh
+        apiResult.rh,
+        apiResult.weather.description,
+        apiResult.weather.icon,
+        apiResult.weather.code,
       )
 
       console.log(this.response);
