@@ -21,6 +21,7 @@ import { ServiceApiService } from "./service-api.service";
     DisplayWeatherRealComponent,
     SearchWeatherComponent,
     GrapichTodayComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,4 @@
 export class DataWeather {
-
   public apiData: any;
 
   constructor(apiData: any) {
