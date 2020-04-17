@@ -1,7 +1,7 @@
 export class DataWeather {
   public country: string;
   public city: string;
-  public temperature: number;
+  public temperature: string;
   public wind: number;
   public preciptation: number;
   public umidity: number;
@@ -9,7 +9,7 @@ export class DataWeather {
   constructor(
     country: string,
     city: string,
-    temperature: number,
+    temperature: string,
     wind: number,
     preciptation: number,
     umidity: number
