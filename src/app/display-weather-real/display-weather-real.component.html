@@ -1,47 +1,47 @@
 <nav class="menu-prev-weather">
-    <ul class="menu-prev-itens">
-        <li>Hoje</li>
-        <li>Nesta semana</li>
-        <li>Historico</li>
-    </ul>
+  <ul class="menu-prev-itens">
+    <li>Hoje</li>
+    <li>Nesta semana</li>
+    <li>Historico</li>
+  </ul>
 </nav>
 
 
 <section class="content-weather">
 
-    <div class="location-city">
-        <h2>São João Climaco, São Paulo - SP, 04255</h2>
+  <div class="location-city">
+    <h2>{{ responses.city }} - {{ responses.country }}</h2>
+  </div>
+
+  <hr class="hr-style">
+
+  <div class="content-temperature">
+    <span><img src="../../assets/icon/sun.svg" class="img-weather" /> Ensolarado</span>
+    <h2>25 °C</h2>
+  </div>
+
+  <div class="more-info">
+    <div>
+      <img src="../../assets/icon/rain.svg" />
+      <span>23%</span>
+      <p> Chuva: </p>
     </div>
 
-    <hr class="hr-style">
-
-    <div class="content-temperature">
-        <span><img src="../../assets/icon/sun.svg" class="img-weather" /> Ensolarado</span>
-        <h2>25 °C</h2>
+    <div>
+      <img src="../../assets/icon/moisture.svg" />
+      <span>50%</span>
+      <p>Umidade:</p>
     </div>
 
-    <div class="more-info">
-        <div>
-            <img src="../../assets/icon/rain.svg"/>
-            <span>23%</span>
-            <p> Chuva: </p>
-        </div>
-
-        <div>
-            <img src="../../assets/icon/moisture.svg"/>
-            <span>50%</span>
-            <p>Umidade:</p>
-        </div>
-
-        <div>
-            <img src="../../assets/icon/wind.svg" />
-            <span>14 Km/h</span>
-            <p> Vento: </p>
-        </div>
+    <div>
+      <img src="../../assets/icon/wind.svg" />
+      <span>14 Km/h</span>
+      <p> Vento: </p>
     </div>
+  </div>
 
-    <div class="graphic">
-        <grapich-today></grapich-today>
-    </div>
+  <div class="graphic">
+    <grapich-today></grapich-today>
+  </div>
 
 </section>
