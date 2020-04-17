@@ -11,7 +11,7 @@ export class DisplayWeatherRealComponent implements OnInit {
 
   constructor(private response: ServiceApiService) { }
 
-  @Input () responses;
+  @Input () responses: any;
 
   ngOnInit(): void {
 
